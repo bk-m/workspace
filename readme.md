@@ -143,3 +143,14 @@ Capslock::Ctrl
     - `git-bash`
     - `Project Manager` plugin
 - add `<vscode_root>\bin` to `cmder's path var`
+
+## Optional Tools
+- Notepad++
+- Slack
+- Discord
+- Spotify
+- Dropbox
+- pgAdmin / phpMyAdmin / SQLite Database Browser
+- WinSCP
+- KeePass2
+- SourceTree (or some other Git GUI)
