@@ -173,7 +173,7 @@ channels:
 - add `<vscode_root>\bin` to `cmder's path var` or user `Path`
 
 ## Download `VirtualBox`
-> https://www.virtualbox.org/wiki/Downloads
+> https://www.virtualbox.org/wiki/Downloads  
 > https://xubuntu.org/
 
 - install `VitualBox` + Extension Pack
