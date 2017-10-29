@@ -181,6 +181,7 @@ channels:
 - enable shared clipboard and set up a shared folder between host & VM
 
 ## Optional Tools
+- NodeJS
 - Notepad++
 - Slack
 - Discord
@@ -190,3 +191,5 @@ channels:
 - WinSCP
 - KeePass2
 - SourceTree (or some other Git GUI)
+- some Office Suite if not already installed
+- Inkscape
