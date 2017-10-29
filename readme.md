@@ -172,6 +172,14 @@ channels:
     - `Project Manager` plugin
 - add `<vscode_root>\bin` to `cmder's path var` or user `Path`
 
+## Download `VirtualBox`
+> https://www.virtualbox.org/wiki/Downloads
+> https://xubuntu.org/
+
+- install `VitualBox` + Extension Pack
+- install `XUbuntu` and set it up following this document
+- enable shared clipboard and set up a shared folder between host & VM
+
 ## Optional Tools
 - Notepad++
 - Slack
