@@ -78,16 +78,12 @@ Capslock::Ctrl
 > https://www.anaconda.com/download/
 - make sure all `path` vars are correctly set (in user vars)
 
-![Anaconda Path][conda_path]
-
-[conda_path]:(https://github.com/bk-m/workspace/blob/master/anaconda_path.PNG)
+![Anaconda Path](https://github.com/bk-m/workspace/blob/master/anaconda_path.PNG)
 
 ## Download `VS Code`
 > https://code.visualstudio.com/
 
-![VS Code extensions][code_ex]
-
-[code_ex]: (https://github.com/bk-m/workspace/blob/master/vscode_extensions.PNG)
+![VS Code extensions](https://github.com/bk-m/workspace/blob/master/vscode_extensions.PNG)
 
 ```json
 // Place your settings in this file to overwrite the default settings
