@@ -80,14 +80,14 @@ Capslock::Ctrl
 
 ![Anaconda Path][conda_path]
 
-[conda_path]:anaconda_path.png
+[conda_path]:(https://github.com/bk-m/workspace/blob/master/anaconda_path.PNG)
 
 ## Download `VS Code`
 > https://code.visualstudio.com/
 
 ![VS Code extensions][code_ex]
 
-[code_ex]: vscode_extensions.png
+[code_ex]: (https://github.com/bk-m/workspace/blob/master/vscode_extensions.PNG)
 
 ```json
 // Place your settings in this file to overwrite the default settings
