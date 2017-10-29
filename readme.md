@@ -42,7 +42,7 @@ $ git config --global user.email johndoe@example.com
 $ git config --global core.editor emacs
 ```
 - make sure `GitFlow` works
-- add to `path` of not done by setup
+- add to `path` if not done by setup
 
 ## Download `Emacs`
 > https://www.gnu.org/software/emacs/
@@ -79,6 +79,33 @@ Capslock::Ctrl
 - make sure all `path` vars are correctly set (in user vars)
 
 ![Anaconda Path](https://github.com/bk-m/workspace/blob/master/anaconda_path.PNG)
+
+- edit `~/.condarc`
+```yaml
+ssl_verify: true
+proxy_servers:
+  http: http://user:pass@corp.com:8080
+  https: https://user:pass@corp.com:8080
+channels:
+  - defaults
+  - conda-forge
+```
+
+## Download `JDK`
+> http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+> http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html
+
+- set system vars:
+    - `JAVA_HOME: %ProgramFiles%\Java\jdk1.8.0_121`
+    - `Path: C:\Program Files\Java\jdk1.8.0_121\bin`
+    - `Path: C:\ProgramData\Oracle\Java\javapath`
+
+## Download `Maven`
+> https://maven.apache.org/download.cgi
+
+- add to user vars:
+    - `Path: C:\Tools\apache-maven-3.3.9\bin`
+- set proxy in `<maven_dir>\conf\settings.xml` if necessary
 
 ## Download `VS Code`
 > https://code.visualstudio.com/
@@ -138,11 +165,12 @@ Capslock::Ctrl
     "C:\\Users\\XXX\\Dropbox\\code"]
 }
 ```
+- set proxy if necessary
 - in `Settings` file set correct paths for:
     - `Cmder`
     - `git-bash`
     - `Project Manager` plugin
-- add `<vscode_root>\bin` to `cmder's path var`
+- add `<vscode_root>\bin` to `cmder's path var` or user `Path`
 
 ## Optional Tools
 - Notepad++
